@@ -1,0 +1,81 @@
+@charset "UTF=8";
+.nav-item{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.nav-link{
+    font-size: 25px;
+    color:black!important;
+}
+.nav-link:hover{
+    color: tomato!important;
+}
+.navbar-expand-md .navbar-collapse {
+    justify-content: center;
+}
+.navbar-toggler-icon {
+    color: black!important;
+}
+.card-deck{
+    
+    margin: 20px 0px 20px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.card{
+    border-radius: 0.5rem!important;
+}
+.card-body {
+    padding: 6px!important;
+}
+.card-title {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+#info{
+    font-family: roboto;
+    font-size: x-large;
+    text-align: center;
+    margin-top: 70px;
+}
+#skills{
+    margin-top: 5%;
+    display: inline;
+}
+#skills h1{
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: underline;
+    color: burlywood;
+    margin-bottom: 50px;
+}
+#skills img{
+    max-width: 30%;
+    padding: 0px 5px 10px
+}
+#skills img:hover{
+    transform: scale(0.5);
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: 20px 20px 50px grey;
+    transition: 0.5s;
+}
+footer{
+    background-color: lightgray;
+    height: 250px;
+    padding:40px;
+    width: 100%!important;
+}
+#connect{
+    text-align: center;
+    margin-top: 2rem;
+}
+.modal-body a{
+    font-size: 2rem;
+    padding: 5px 10px 5px;
+}
+#copy{
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
